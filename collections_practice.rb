@@ -3,6 +3,6 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc(array)
-  array.sort_by { |h| h* .reverse!}
+  array.sort_by 
 end 
   
