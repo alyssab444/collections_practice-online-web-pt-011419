@@ -40,7 +40,15 @@ end
   end
 end
 
-def sum_array 
+def sum_array(array)
+  sum = 0
+  array. each do |number|
+    if number.is_a? Integer
+      sum += number
+    end
+  end
+  sum
+end
   
   
   
