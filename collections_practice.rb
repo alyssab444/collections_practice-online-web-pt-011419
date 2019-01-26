@@ -43,7 +43,7 @@ end
 def sum_array(array)
   sum = 0
   array. each do |number|
-    if number.is_a? Integer
+    if number.is_a? Integer 
       sum += number
     end
   end
